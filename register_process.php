@@ -7,5 +7,6 @@
        $email =$_POST['email_address'];
     }
     if ( isset($_POST['password'])) {
-      $email =$_POST['password'];
+      $password =$_POST['password'];
+   } 
 
