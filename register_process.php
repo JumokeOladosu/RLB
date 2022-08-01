@@ -8,5 +8,15 @@
     }
     if ( isset($_POST['password'])) {
       $password =$_POST['password'];
+<<<<<<< HEAD
    } 
+=======
+    } 
+ 
+    // Generate Account Number
+    $accountNo = rand(1000000000,9999999999);
+
+
+
+>>>>>>> ad8cc57529a040c7a72427dc1f12688872fa10ca
 
