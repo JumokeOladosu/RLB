@@ -17,7 +17,7 @@
 
         <!-- Login container section -->
         <div class="form"> 
-            <form method="$_POST" action="">
+            <form method="POST" action="register_process.php">
                 <div class="inp">
                     <input name="full_name" class="my-input" placeholder="Full Name" type="text"> 
                 </div>
