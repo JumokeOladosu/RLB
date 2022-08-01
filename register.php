@@ -17,21 +17,21 @@
 
         <!-- Login container section -->
         <div class="form"> 
-            <form action="">
+            <form method="$_POST" action="">
                 <div class="inp">
-                    <input class="my-input" placeholder="Full Name" type="text"> 
+                    <input name="full_name" class="my-input" placeholder="Full Name" type="text"> 
                 </div>
                 <div class="inp">
-                    <input class="my-input" placeholder="Email Address"  type="email"> 
+                    <input name="email_address" class="my-input" placeholder="Email Address"  type="email"> 
                 </div>
                 <div class="inp">
-                    <input class="my-input" placeholder="Password"  type="text"> 
+                    <input name="password" class="my-input" placeholder="Password"  type="text"> 
                 </div>
                 <div class="inp">
-                    <button>Register </button>
+                    <button type="submit">Register </button>
                 </div>
                 <div class="inp">
-                    <a href="index.html">Login Now</a>
+                    <a href="index.php">Login Now</a>
                 </div>    
             </form>
 

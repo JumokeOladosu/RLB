@@ -28,7 +28,7 @@
                     <button>Login </button>
                 </div>
                 <div class="inp">
-                    <button><a href="register.html">Create Account</a></button>
+                    <button><a href="register.php">Create Account</a></button>
                 </div>    
             </form>
 
