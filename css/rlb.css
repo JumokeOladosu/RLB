@@ -46,4 +46,11 @@ form{
     width: 100%;
     height: 40px;
 }
-
+.inp button{
+    width: 100%;
+    height: 40px;
+    background-color: #058789;
+    border: 2px solid #058789;
+    color: #fff;
+    font-size: 16px;
+}
