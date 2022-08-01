@@ -10,7 +10,7 @@
     if ( isset($_POST['password'])) {
       $password =$_POST['password'];
     } 
-
+ 
     // Generate Account Number
     $accountNo = rand(1000000000,9999999999);
 
