@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 .main{
@@ -53,4 +55,8 @@ form{
     border: 2px solid #058789;
     color: #fff;
     font-size: 16px;
+}
+
+.inp button a{
+    color: #fff;
 }
