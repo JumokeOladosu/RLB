@@ -1,6 +1,5 @@
 <?php
 
-    // Collection of data
     if ( isset($_POST['full_name']) ) {
        $firstname = $_POST['full_name'];
     }
@@ -9,5 +8,5 @@
     }
     if ( isset($_POST['password'])) {
       $password =$_POST['password'];
-    } 
+   } 
 
