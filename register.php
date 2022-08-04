@@ -19,13 +19,13 @@
         <div class="form"> 
             <form method="POST" action="register_process.php">
                 <div class="inp">
-                    <input name="full_name" class="my-input" placeholder="Full Name" type="text"> 
+                    <input required="" name="full_name" class="my-input" placeholder="Full Name" type="text"> 
                 </div>
                 <div class="inp">
-                    <input name="email_address" class="my-input" placeholder="Email Address"  type="email"> 
+                    <input required="" name="email_address" class="my-input" placeholder="Email Address"  type="email"> 
                 </div>
                 <div class="inp">
-                    <input name="password" class="my-input" placeholder="Password"  type="text"> 
+                    <input required="" name="password" class="my-input" placeholder="Password"  type="text"> 
                 </div>
                 <div class="inp">
                     <button type="submit">Register </button>

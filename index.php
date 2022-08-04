@@ -17,15 +17,15 @@
 
         <!-- Login container section -->
         <div class="form"> 
-            <form action="">
+            <form method="POST" action="login_process.php">
                 <div class="inp">
-                    <input class="my-input" placeholder="Email or Account No" type="text"> 
+                    <input name="account_no" class="my-input" placeholder="Email or Account No" type="text"> 
                 </div>
                 <div class="inp">
-                    <input class="my-input" placeholder="Password"  type="password"> 
+                    <input name="password" class="my-input" placeholder="Password"  type="password"> 
                 </div>
                 <div class="inp">
-                    <button>Login </button>
+                    <button type="submit">Login </button>
                 </div>
                 <div class="inp">
                     <button><a href="register.php">Create Account</a></button>
