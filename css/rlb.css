@@ -84,3 +84,38 @@ form{
     border-radius: 50%;
 }
 
+.records{
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.records .card{
+    width:30%;
+    height: 90px;
+    background-color: #058789;
+}
+
+.advert{
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advert .ad1{
+    width:20%;
+    height: 500px;
+    background-color: #058789;
+}
+.advert .ad2{
+    width:75%;
+    height: 500px;
+    background-color: #058789;
+}
+

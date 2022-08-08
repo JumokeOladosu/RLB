@@ -33,5 +33,14 @@ if (!isset($_SESSION['user_id'])) {
             
         </div>
     </div>
+
+    <div class="advert">
+        <div class="ad1">
+
+        </div>
+        <div class="ad2">
+            
+        </div>
+    </div>
 </body>
 </html>
