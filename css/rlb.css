@@ -60,3 +60,27 @@ form{
 .inp button a{
     color: #fff;
 }
+
+
+/* SUCCESS PAGE STYLING START HERE */
+.top-area{
+    width: 100%;
+    padding: 20px 30px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-area .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.top-area .profile-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
