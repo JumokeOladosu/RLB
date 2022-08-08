@@ -24,7 +24,8 @@ if (!isset($_SESSION['user_id'])) {
 
     <div class="records">
         <div class="card">
-
+            <h2>300</h2>
+            <span>Total Transaction</span>
         </div>
         <div class="card">
             

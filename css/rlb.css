@@ -97,6 +97,8 @@ form{
     width:30%;
     height: 90px;
     background-color: #058789;
+    color: #fff;
+    text-align: center;
 }
 
 .advert{
@@ -119,3 +121,7 @@ form{
     background-color: #058789;
 }
 
+.records .card h2{
+    font-size: 30px;
+    padding-top: 15px;
+}
