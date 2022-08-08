@@ -1,5 +1,7 @@
 <?php
     require('connect.php');
+
+    session_start();
     
     if ( isset($_POST['account_no'])) {
         $account_no =$_POST['account_no'];
@@ -17,8 +19,11 @@
 
     if ($getLoginData) {
 
+        // set session
+        $_SESSION['user_id'] = $getLoginData['id'];
+        header("Location: success.php");
 
-        echo "Logged in successfully";
+        // echo "Logged in successfully";
     }else{
         echo "Login details not found";
     }
