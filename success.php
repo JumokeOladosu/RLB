@@ -28,10 +28,12 @@ if (!isset($_SESSION['user_id'])) {
             <span>Total Transaction</span>
         </div>
         <div class="card">
-            
+             <h2>9019287790</h2>
+            <span>Account Number </span>
         </div>
         <div class="card">
-            
+             <h2>N31,555,000</h2>
+            <span>Account Balance </span>
         </div>
     </div>
 
