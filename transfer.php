@@ -58,7 +58,29 @@ $userData = mysqli_fetch_assoc($proUserQuery);
     </div>
 
     <div class="advert">
-    
+    <div class="transfer">
+            <form method="POST" action="">
+           
+                <div class="inp">
+                    <select class="bank" name="bank" id="bank">
+                        <option value="1">RLB</option>
+                        <option value="2">Access</option>
+                        <option value="3">GTBank</option>
+                        <option value="4">Fidelity</option>
+                    </select>
+                </div>
+                <div class="inp">
+                    <input required="" name="Account number" class="my-input" placeholder="Account number" type="text"> 
+                </div>
+                <div class="inp">
+                    <input required="" name="Amount" class="my-input" placeholder="Amount"  type="email"> 
+                </div>
+                <div class="inp">
+                    <button type="submit"> Transfer </button>
+                </div> 
+            </form>
+
+    </div>
 
     </div>
 </body>
