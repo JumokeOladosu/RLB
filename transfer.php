@@ -58,3 +58,8 @@ $userData = mysqli_fetch_assoc($proUserQuery);
     </div>
 
     <div class="advert">
+    
+
+    </div>
+</body>
+</html>
