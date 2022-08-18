@@ -5,7 +5,19 @@ session_start();
 if (!isset($_SESSION['user_id']) || empty($_SESSION['user_id'])) {
     header("Location: index.php");
 }
+
+
+$user_id = $_SESSION['user_id'];
+// Fetch users data by session id
+$Userquery = "SELECT * FROM users WHERE id = $user_id"; 
+// Processed the query
+$proUserQuery = mysqli_query($conn,$Userquery);
+// Output result as an associative array
+$userData = mysqli_fetch_assoc($proUserQuery);
+
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
