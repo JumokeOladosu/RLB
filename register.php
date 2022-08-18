@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,6 +27,14 @@
                 </div>
                 <div class="inp">
                     <input required="" name="password" class="my-input" placeholder="Password"  type="text"> 
+                </div>
+                <div class="inp">
+                    <select class="bank" name="bank" id="bank">
+                        <option value="1">RLB</option>
+                        <option value="2">Access</option>
+                        <option value="3">GTBank</option>
+                        <option value="4">Fidelity</option>
+                    </select>
                 </div>
                 <div class="inp">
                     <button type="submit">Register </button>

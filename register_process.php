@@ -10,6 +10,10 @@
     if ( isset($_POST['password'])) {
       $password =$_POST['password'];
     }
+
+    if ( isset($_POST['bank'])) {
+      $bank =$_POST['bank'];
+    }
     
     // Check if email address is found
     $checkEmailQuery = "SELECT COUNT(*) as `get` FROM users WHERE email = '{$email}'";
@@ -24,7 +28,7 @@
       $accountNo = rand(1000000000,9999999999);
 
       // Insert data into database
-      $query = "INSERT INTO users (account_number, password, full_name, email) VALUES ('{$accountNo}', '{$password}', '{$fullname}', '{$email}')";
+      $query = "INSERT INTO users (account_number, password, full_name, email, bank) VALUES ('{$accountNo}', '{$password}', '{$fullname}', '{$email}', '{$bank}')";
       $processQuery = mysqli_query($conn, $query);
 
 

@@ -16,7 +16,7 @@
         </div>
 
         <!-- Login container section -->
-        <div class="form"> 
+        <div class="login-form"> 
             <form method="POST" action="login_process.php">
                 <div class="inp">
                     <input name="account_no" class="my-input" placeholder="Email or Account No" type="text"> 
