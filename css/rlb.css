@@ -139,3 +139,11 @@ form{
     width: 100%;
     height: 40px;
 }
+
+.left-link{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    background-color: #fff;
+    text-align: center;
+}

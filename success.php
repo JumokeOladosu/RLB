@@ -58,6 +58,18 @@ $userData = mysqli_fetch_assoc($proUserQuery);
     <div class="advert">
         <div class="ad1">
 
+            <div class="left-link">
+                <a href="">Transfer Now</a>
+            </div>
+
+            <div class="left-link">
+                <a href="">Transfer Now</a>
+            </div>
+
+            <div class="left-link">
+                <a href="">Transfer Now</a>
+            </div>
+
         </div>
         <div class="ad2">
             
