@@ -54,7 +54,7 @@
 
             //process the send and reciver balance
             $updateSenderBalance = mysqli_query($conn, "UPDATE users SET balance = $Sendernewbalnce WHERE id = $user_id");
-            $updateSenderBalance = mysqli_query($conn, "UPDATE users SET balance = $recieverNewBalance WHERE id = recieverId");
+            $updateRecieverBalance = mysqli_query($conn, "UPDATE users SET balance = $recieverNewBalance WHERE id = $recieverId");
 
             echo "Transaction Successfully Initiated Thanks....";
 
