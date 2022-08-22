@@ -73,7 +73,7 @@ $userData = mysqli_fetch_assoc($proUserQuery);
                     <input required="" name="account_no" class="my-input" placeholder="Account number" type="text"> 
                 </div>
                 <div class="inp">
-                    <input required="" name="amount" class="my-input" placeholder="Amount"  type="email"> 
+                    <input required="" name="amount" class="my-input" placeholder="Amount"  type="number"> 
                 </div>
                 <div class="inp">
                     <button type="submit"> Transfer </button>
