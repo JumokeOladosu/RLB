@@ -43,7 +43,24 @@
 
     if($recieverData){
         
-        echo "Transaction Processing......";
+        if($senderData['balance'] >= $amount){
+            
+            // Sender New Balance
+            $Sendernewbalnce = $senderData['balance'] - $amount;
+
+            //. reciever new balance
+            $recieverNewBalance = $recieverData['balance'] + $amount;
+            $recieverId = $recieverData['id'];
+
+            //process the send and reciver balance
+            $updateSenderBalance = mysqli_query($conn, "UPDATE users SET balance = $Sendernewbalnce WHERE id = $user_id");
+            $updateSenderBalance = mysqli_query($conn, "UPDATE users SET balance = $recieverNewBalance WHERE id = recieverId");
+
+            echo "Transaction Successfully Initiated Thanks....";
+
+        }else{
+            echo "Sorry You did not have up to that amount to send out";
+        }
 
 
     }else{
