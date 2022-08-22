@@ -34,4 +34,5 @@
      * 
      * 
      */
-
+    $acctcheck = "SELECT * FROM users WHERE bank = $bank AND account_number = '{$account_no}'";
+    
