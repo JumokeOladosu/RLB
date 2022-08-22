@@ -35,4 +35,19 @@
      * 
      */
     $acctcheck = "SELECT * FROM users WHERE bank = $bank AND account_number = '{$account_no}'";
+    // Processed the query
+    $acctCheckQuery = mysqli_query($conn,$acctcheck);
+    // Output result as an associative array
+    $recieverData = mysqli_fetch_assoc($acctCheckQuery);
+
+    if($recieverData){
+        
+        echo "Transaction Processing......";
+
+
+    }else{
+
+        echo "Account Number not found or Bank does not match";
+
+    }
     
