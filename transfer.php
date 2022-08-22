@@ -59,7 +59,7 @@ $userData = mysqli_fetch_assoc($proUserQuery);
 
     <div class="promotion">
     <div class="transfer">
-            <form method="POST" action="">
+            <form method="POST" action="transfer_process.php">
            
                 <div class="inp">
                     <select class="bank" name="bank" id="bank">
@@ -70,10 +70,10 @@ $userData = mysqli_fetch_assoc($proUserQuery);
                     </select>
                 </div>
                 <div class="inp">
-                    <input required="" name="Account number" class="my-input" placeholder="Account number" type="text"> 
+                    <input required="" name="account_no" class="my-input" placeholder="Account number" type="text"> 
                 </div>
                 <div class="inp">
-                    <input required="" name="Amount" class="my-input" placeholder="Amount"  type="email"> 
+                    <input required="" name="amount" class="my-input" placeholder="Amount"  type="email"> 
                 </div>
                 <div class="inp">
                     <button type="submit"> Transfer </button>
