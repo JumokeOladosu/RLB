@@ -115,7 +115,7 @@ form{
     height: auto;
     padding: 20px 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
