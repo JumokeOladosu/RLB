@@ -59,7 +59,7 @@ $userData = mysqli_fetch_assoc($proUserQuery);
         <div class="ad1">
 
             <div class="left-link">
-                <a href="">Transfer Now</a>
+                <a href="transfer.php">Transfer Now</a>
             </div>
 
             <div class="left-link">
