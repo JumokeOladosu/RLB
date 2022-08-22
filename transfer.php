@@ -57,7 +57,7 @@ $userData = mysqli_fetch_assoc($proUserQuery);
         </div>
     </div>
 
-    <div class="advert">
+    <div class="promotion">
     <div class="transfer">
             <form method="POST" action="">
            

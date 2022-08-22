@@ -119,6 +119,15 @@ form{
     align-items: center;
 }
 
+.promotion{
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .advert .ad1{
     width:20%;
     height: 500px;
